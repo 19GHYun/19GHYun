@@ -44,14 +44,14 @@ Java로 프론트엔드와 백엔드를 아우르며, DB 설계와 백준 문제
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=19GHYun&layout=compact&theme=dracula&hide_border=true" alt="Top Languages" width="48%" />
 </p>
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=19GHYun&theme=dracula&hide_border=true" alt="GitHub Streak" width="48%" />
+  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=19GHYun&theme=dracula&hide_border=true)
 </p>
 
 ---
 
 ## 🏆 대표 프로젝트
-- **[NFC]**: [안드로이드 스튜디오와 NFC를 이용한 생체 반응 인식 앱]. ([리포지토리 링크])
-- **[의학 실습 멀티 설계]**: [Unity와 VR를 이용하여 만든 의학 실습 프로그램에 Photon서버를 이용하여 멀티 플레이 설계 프로젝트]. ([리포지토리 링크])
+- **[NFC]**: [안드로이드 스튜디오와 NFC를 이용한 생체 반응 인식 앱]. ([[리포지토리 링크](https://github.com/19GHYun/snl_rf)])
+- **[의학 실습 멀티 설계]**: [Unity와 VR를 이용하여 만든 의학 실습 프로그램에 Photon서버를 이용하여 멀티 플레이 설계 프로젝트]. ([리포지토리 링크(비공개)])
 
 ---
 
