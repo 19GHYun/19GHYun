@@ -26,6 +26,7 @@ Java로 프론트엔드와 백엔드를 아우르며, DB 설계와 백준 문제
 - **문제 해결**: 
   ![Baekjoon](https://img.shields.io/badge/-Baekjoon-0055A4?logo=codeforces&style=flat-square) 
   (티어: [Gold I])
+  
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=zxcvting1)](https://solved.ac/zxcvting1)
 
 ---
