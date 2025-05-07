@@ -25,7 +25,7 @@ Java로 프론트엔드와 백엔드를 아우르며, DB 설계와 백준 문제
   ![Oracle](https://img.shields.io/badge/-Oracle-F80000?logo=oracle&style=flat-square)
 - **문제 해결**: 
   ![Baekjoon](https://img.shields.io/badge/-Baekjoon-0055A4?logo=codeforces&style=flat-square) 
-  (티어: [Gold I])
+  ![Baekjoon Tier](https://mazassumnida.wtf/api/v2/generate_badge?boj=zxcvting1)
   
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=zxcvting1)](https://solved.ac/zxcvting1)
 
@@ -43,9 +43,7 @@ Java로 프론트엔드와 백엔드를 아우르며, DB 설계와 백준 문제
   <img src="https://github-readme-stats.vercel.app/api?username=19GHYun&show_icons=true&theme=dracula&hide_border=true" alt="GHYun's GitHub Stats" width="48%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=19GHYun&layout=compact&theme=dracula&hide_border=true" alt="Top Languages" width="48%" />
 </p>
-<p align="center">
-  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=19GHYun&theme=dracula&hide_border=true)
-</p>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=19GHYun&theme=dracula&hide_border=true" alt="GitHub Streak" width="48%" />
 
 ---
 
