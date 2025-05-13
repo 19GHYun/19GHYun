@@ -15,7 +15,7 @@ Java로 프론트엔드와 백엔드를 아우르며, DB 설계와 백준 문제
 ![CSS](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&style=flat-square)
 
 - **프론트엔드**: 
-  ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&style=flat-square)
+  ![Vue](https://img.shields.io/badge/-Vue-61DAFB?logo=react&style=flat-square)
   ![JSP](https://img.shields.io/badge/-JSP-007396?logo=java&style=flat-square)
 - **백엔드**: 
   ![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?logo=spring-boot&style=flat-square)
