@@ -4,9 +4,9 @@
 <table>
     <tr height="140px">
         <td align="center" width="130px">
-            <a href="https://github.com/Kbpch02"><img height="100px" width="100px" src="https://avatars.githubusercontent.com/u/48869794?v=4"/></a>
+            <a href="https://github.com/Min-Chae"><img height="100px" width="100px" src="https://avatars.githubusercontent.com/u/48869794?v=4"/></a>
             <br />
-            <a href="https://github.com/Kbpch02">채민</a>
+            <a href="https://github.com/Min-Chae">채민</a>
         </td>
         <td align="center" width="130px">
             <a href="https://github.com/19GHYun"><img height="100px" width="100px" src="https://avatars.githubusercontent.com/u/94778099?v=4"/></a>
