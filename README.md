@@ -1,21 +1,6 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=007396&center=true&vCenter=true&width=440&lines=Hello,+I'm+GHYun!+%F0%9F%91%8B;Java+Developer+%26+Problem+Solver" alt="Typing SVG" />
 </p>
-<table>
-    <tr height="140px">
-        <td align="center" width="130px">
-            <a href="https://github.com/Min-Chae"><img height="100px" width="100px" src="https://avatars.githubusercontent.com/u/48869794?v=4"/></a>
-            <br />
-            <a href="https://github.com/Min-Chae">채민</a>
-        </td>
-        <td align="center" width="130px">
-            <a href="https://github.com/19GHYun"><img height="100px" width="100px" src="https://avatars.githubusercontent.com/u/94778099?v=4"/></a>
-            <br />
-            <a href="https://github.com/19GHYun">윤경호</a>
-        </td>
-    </tr>
-
-<table>
 
 # 안녕하세요, GHYun입니다! 🚀
 
