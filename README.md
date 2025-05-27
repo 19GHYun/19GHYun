@@ -2,7 +2,15 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=007396&center=true&vCenter=true&width=440&lines=Hello,+I'm+GHYun!+%F0%9F%91%8B;Java+Developer+%26+Problem+Solver" alt="Typing SVG" />
 </p>
 
+        <td align="center" width="130px">
+            <a href="https://github.com/19GHYun"><img height="100px" width="100px" src="https://avatars.githubusercontent.com/u/94778099?v=4"/></a>
+            <br />
+            <a href="https://github.com/19GHYun">윤경호</a>
+        </td>
+
 # 안녕하세요, GHYun입니다! 🚀
+
+
 
 Java로 프론트엔드와 백엔드를 아우르며, DB 설계와 백준 문제 풀이로 논리를 다지는 개발자입니다! 깔끔한 코드와 멋진 UI로 세상을 바꿔요! 😄
 
