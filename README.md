@@ -64,6 +64,7 @@
 
 <br />
 
-<img src="https://visitor-badge.laobi.icu/badge?page_id=19GHYun.19GHYun&left_text=visitors&left_color=%232a0a18&right_color=%23e8364f" alt="방문자 수" />
+<img src="assets/visitors.svg" width="520" alt="참배객 현판" /><br />
+<img src="https://count.getloli.com/@19GHYun-profile?name=19GHYun-profile&theme=booru-touhoulat&padding=5&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" width="300" alt="참배객 수" />
 
 </div>
