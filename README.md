@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="슈팅 게임 화면처럼 꾸민 배너. STAGE 4, 신호 분석 · 임베디드. 점수판에는 프로젝트 17개, 진행 중 6개, solved.ac 플래티넘 IV, 대표 프로젝트 3개, 다뤄 본 기술 45개, 활동 기간 2021–2026" />
+<img src="assets/banner.svg" width="100%" alt="슈팅 게임 화면처럼 꾸민 배너. STAGE 4, 측정하고 · 붙이고 · 현장에서 쓰이게. 점수판에는 프로젝트 17개, 진행 중 6개, solved.ac 플래티넘 IV, 대표 프로젝트 3개, 다뤄 본 기술 45개, 활동 기간 2021–2026" />
 
 <a href="https://19ygh.netlify.app"><img src="https://img.shields.io/badge/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-19ygh.netlify.app-e8364f?style=for-the-badge&logo=netlify&logoColor=white" alt="포트폴리오 19ygh.netlify.app" /></a>
 

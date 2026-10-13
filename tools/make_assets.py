@@ -371,14 +371,10 @@ def banner(sp):
             )
 
     # 가운데 스테이지 제목
-    pf.append(t.text('STAGE 4', PX, 216, 12, weight=700, fill=GOLD, anchor='middle', ls=5,
+    pf.append(t.text('STAGE 4', PX, 252, 13, weight=700, fill=GOLD, anchor='middle', ls=5,
                      stroke=WINE, sw=3))
-    pf.append(t.text('신호 분석 · 임베디드', PX, 262, 40, face='serif', weight=900, fill='#fff',
-                     anchor='middle', stroke=WINE, sw=6))
-    pf.append(t.text('SIGNAL ANALYSIS & EMBEDDED', PX, 285, 11, weight=600, fill=PINK, anchor='middle',
-                     ls=3, stroke=WINE, sw=3))
-    pf.append(t.text('측정하고 · 붙이고 · 현장에서 쓰이게', PX, 310, 14, weight=700, fill='#fff',
-                     anchor='middle', stroke=WINE, sw=4))
+    pf.append(t.text('측정하고 · 붙이고 · 현장에서 쓰이게', PX, 282, 18, face='serif', weight=800,
+                     fill='#fff', anchor='middle', stroke=WINE, sw=5))
 
     # 레이무: 조준 원, 음양옥 두 개, 본인
     pf.append(f'<g transform="translate({PX} {PY - 30})"><g class="spin" style="animation-duration:6s">'
@@ -517,7 +513,7 @@ def banner(sp):
         'to{transform:translate(-70px,440px) rotate(600deg)}}'
         + frame_keyframes(frames)
     )
-    return svg_doc(W, H, '신호 분석 · 임베디드 개발자 프로필 배너', defs, style, ''.join(body))
+    return svg_doc(W, H, '슈팅 게임 화면처럼 꾸민 프로필 배너', defs, style, ''.join(body))
 
 
 # ── 스펠카드 ─────────────────────────────────────────────────
