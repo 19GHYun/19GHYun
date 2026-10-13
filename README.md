@@ -41,9 +41,9 @@
 | :-- | :-- |
 | 💬 **언어** | <img src="https://skillicons.dev/icons?i=py,java,cs,ts,js,cpp&theme=dark" alt="Python, Java, C#, TypeScript, JavaScript, C++" /><br />![JASS](https://img.shields.io/badge/JASS-2a0a18?style=flat-square) |
 | 📡 **신호 · 임베디드** | <img src="https://skillicons.dev/icons?i=arduino,raspberrypi&theme=dark" alt="Arduino, Raspberry Pi" /><br />![ESP32](https://img.shields.io/badge/ESP32-e7352c?style=flat-square&logo=espressif&logoColor=white) ![RTL-SDR](https://img.shields.io/badge/RTL--SDR-2a0a18?style=flat-square) ![BLE](https://img.shields.io/badge/BLE-0082fc?style=flat-square&logo=bluetooth&logoColor=white) ![NFC / RFID](https://img.shields.io/badge/NFC%20%2F%20RFID-5a1e55?style=flat-square) ![USB Serial](https://img.shields.io/badge/USB%20Serial-555?style=flat-square) ![FlatBuffers](https://img.shields.io/badge/FlatBuffers-e8364f?style=flat-square) |
-| 🖥️ **화면 · 클라이언트** | <img src="https://skillicons.dev/icons?i=react,vue,unity,threejs,qt,tailwind&theme=dark" alt="React, React Native, Vue.js, Unity, Three.js, PySide6, Tailwind CSS" /> |
-| ⚙️ **백엔드 · 인프라** | <img src="https://skillicons.dev/icons?i=spring,fastapi,nodejs,docker,nginx,jenkins,aws&theme=dark" alt="Spring Boot, FastAPI, Node.js, Docker, Nginx, Jenkins, AWS" /> |
-| 🧠 **AI · 데이터** | <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,mysql,postgres,redis,elasticsearch&theme=dark" alt="TensorFlow, PyTorch, MySQL, PostgreSQL, Redis, Elasticsearch" /> |
+| 🖥️ **화면 · 클라이언트** | <img src="https://skillicons.dev/icons?i=react,vue,unity,qt,tailwind&theme=dark" alt="React, React Native, Vue.js, Unity, PySide6, Tailwind CSS" /> |
+| ⚙️ **백엔드 · 인프라** | <img src="https://skillicons.dev/icons?i=spring,fastapi,nodejs,docker&theme=dark" alt="Spring Boot, FastAPI, Node.js, Docker" /> |
+| 🧠 **AI · 데이터** | <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,mysql,elasticsearch&theme=dark" alt="TensorFlow, PyTorch, MySQL, Elasticsearch" /> |
 
 ## 🏆 Rank — 백준 · solved.ac
 
