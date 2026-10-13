@@ -63,8 +63,8 @@ ROMAN = {'I': 1, 'II': 2, 'III': 3, 'IV': 4, 'V': 5}
 # 배너의 ♪ BGM 문구와 README 의 BGM 버튼에 쓰는 곡.
 # 곡을 바꾸면 README 의 BGM 버튼 링크도 같이 바꾼다.
 BGM = {
-    'title': 'U.N.オーエンは彼女なのか？',
-    'game': '동방홍마향',
+    'title': '少女綺想曲 ～ Dream Battle',
+    'game': '동방영야초',
 }
 
 RED = '#e8364f'
