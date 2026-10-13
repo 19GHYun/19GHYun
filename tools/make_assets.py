@@ -60,6 +60,13 @@ TIER_COLOR = {
 }
 ROMAN = {'I': 1, 'II': 2, 'III': 3, 'IV': 4, 'V': 5}
 
+# 배너의 ♪ BGM 문구와 README 의 BGM 버튼에 쓰는 곡.
+# 곡을 바꾸면 README 의 BGM 버튼 링크도 같이 바꾼다.
+BGM = {
+    'title': 'U.N.オーエンは彼女なのか？',
+    'game': '동방홍마향',
+}
+
 RED = '#e8364f'
 WINE = '#2a0a18'
 CREAM = '#fdf6e9'
@@ -410,7 +417,7 @@ def banner(sp):
             + '</g>'
         )
 
-    pf.append(t.text('♪ BGM : 야간 계측 ~ Phosphor Night', 598, 396, 10, weight=500, fill=PINK,
+    pf.append(t.text(f'♪ BGM : {BGM["title"]}', 598, 396, 10, weight=500, fill=PINK,
                      anchor='end', stroke=WINE, sw=3))
 
     body.append(f'<g clip-path="url(#pfclip)">{"".join(pf)}</g>')
@@ -871,6 +878,34 @@ def visitors_plaque(sp):
     return svg_doc(W, H, '참배객 현판. 레이무가 손을 흔들고 새전함에 동전이 떨어진다', defs, style, ''.join(b))
 
 
+# ── BGM 버튼 ─────────────────────────────────────────────────
+
+
+def bgm_button():
+    """README 의 shields 배지와 높이를 맞춘 BGM 버튼. 링크는 README 에서 건다"""
+    H = 28
+    t = Type()
+    left = 92
+    title = BGM['title']
+    tw = t.width(title, 11, weight=700)
+    W = round(left + 14 + tw + 14)
+    b = []
+    b.append(f'<clipPath id="r"><rect width="{W}" height="{H}" rx="4"/></clipPath>')
+    b.append(f'<g clip-path="url(#r)"><rect width="{left}" height="{H}" fill="{WINE}"/>'
+             f'<rect x="{left}" width="{W - left}" height="{H}" fill="{RED}"/></g>')
+    # 재생 버튼, 글자, 들썩이는 막대
+    b.append('<path d="M10 8.5L19 14 10 19.5Z" fill="#fff"/>')
+    b.append(t.text('BGM', 25, 18.5, 11, weight=800, fill='#fff', ls=1.5))
+    for i, (x, d) in enumerate([(62, 0), (67, -0.35), (72, -0.7), (77, -0.2)]):
+        b.append(f'<g transform="translate({x} 20)"><rect class="eq" x="-1.5" y="-10" width="3" height="10" rx="1" '
+                 f'fill="{GOLD}" style="animation-delay:{d}s"/></g>')
+    b.append(t.text(title, left + 14, 18.5, 11, weight=700, fill='#fff'))
+    style = ('.eq{animation:eq .9s ease-in-out infinite alternate;transform-origin:0 0}'
+             '@keyframes eq{from{transform:scaleY(.25)}to{transform:scaleY(1)}}')
+    body = ''.join(b[1:])
+    return svg_doc(W, H, f'BGM 틀기: {title} ({BGM["game"]})', b[0] + t.defs_svg(), style, body)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--hokora', default=str(ROOT.parent / 'hokora-shrine'),
@@ -879,7 +914,7 @@ def main():
     sp = Sprites(args.hokora)
     OUT.mkdir(exist_ok=True)
     outputs = {'banner.svg': banner(sp), 'taskbar.svg': taskbar(sp), 'solved.svg': solved_card(sp),
-               'visitors.svg': visitors_plaque(sp)}
+               'visitors.svg': visitors_plaque(sp), 'bgm.svg': bgm_button()}
     for c in CARDS:
         outputs[c['file']] = card(sp, c)
     for name, svg in outputs.items():
