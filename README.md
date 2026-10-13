@@ -1,171 +1,69 @@
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=007396&center=true&vCenter=true&width=600&lines=Hello,+I'm+GHYun!+%F0%9F%91%8B;Full+Stack+Developer+%26+Vision+AI+Engineer;Problem+Solver+%26+Code+Enthusiast" alt="Typing SVG" />
-</p>
-
 <div align="center">
 
-# 안녕하세요, GHYun입니다! 🚀
+<img src="assets/banner.svg" width="100%" alt="슈팅 게임 화면처럼 꾸민 배너. STAGE 4, 신호 분석 · 임베디드. 점수판에는 프로젝트 17개, 진행 중 6개, solved.ac 플래티넘 IV, 대표 프로젝트 3개, 다뤄 본 기술 45개, 활동 기간 2021–2026" />
 
-### 💻 Full Stack Developer | 🤖 Vision AI Engineer | 🧠 Problem Solver
+<a href="https://19ygh.netlify.app"><img src="https://img.shields.io/badge/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-19ygh.netlify.app-e8364f?style=for-the-badge&logo=netlify&logoColor=white" alt="포트폴리오 19ygh.netlify.app" /></a>
 
 </div>
 
-Java로 프론트엔드와 백엔드를 아우르고, **컴퓨터 비전 AI**로 이미지 인식의 세계를 탐구하는 개발자입니다!
-깔끔한 코드와 멋진 UI, 그리고 **지능적인 AI 솔루션**으로 세상을 바꿔요! 🌟
+## ⛩️ 어서 오세요!
 
----
+신호를 **측정하고**, 장비를 **붙이고**, 현장에서 **쓰이게** 만듭니다.
 
-## 🛠️ 기술 스택
+- 📡 RF 신호 분석 도구와 전술 상황인식 앱 플러그인을 만들고 있어요.
+- 🔍 문서가 없는 장비와 파일 포맷은 실험으로 하나씩 밝혀서 붙이고, 고친 건 숫자로 확인한 뒤에 반영해요.
+- 🗂️ 지금까지 한 프로젝트 17개는 <b><a href="https://19ygh.netlify.app">포트폴리오</a></b>에 정리해 뒀어요.
+
+## 🎴 Spell Card — 대표 프로젝트
+
+<p align="center">
+  <a href="https://19ygh.netlify.app/project/12"><img src="assets/card-rf.svg" width="270" alt="스펠카드 1. RF 신호 분석 도구 3종. OFDM 부반송파, QAM 차수, 펄스 내 변조를 자동으로 분류하고 계측" /></a>
+  <a href="https://19ygh.netlify.app/project/11"><img src="assets/card-sa.svg" width="270" alt="스펠카드 2. 전술 상황인식 앱 플러그인. 현장 센서가 찾은 무인기를 지도에 띄우고 단말끼리 실시간으로 공유" /></a>
+  <a href="https://19ygh.netlify.app/project/2"><img src="assets/card-sat.svg" width="270" alt="스펠카드 3. 저비용 위성 기지국. 라즈베리파이와 RTL-SDR로 위성 사진을 받아 AI로 후처리" /></a>
+</p>
+
+<p align="center"><sub>카드를 누르면 포트폴리오의 상세 페이지로 가요. 회사 작업은 제품명과 세부 사양을 빼고 적었습니다.</sub></p>
+
+## 🗺️ Stage Select — 걸어온 길
+
+| Stage | 무대 | 시기 | 클리어한 프로젝트 |
+| :-: | :-- | :-- | :-- |
+| **1** | 🎓 학부 | 2023 | [AWNAS](https://github.com/JunYBae/Army_Wireless_Network_Attack_System) — 아두이노 무인 지상 차량과 무선 네트워크 공격 시스템 |
+| **2** | 🔬 연구실 | 2023–24 | VR 의학 교육 다중접속 · NFC 생체 센서 앱 · 저비용 위성 기지국 (KICS 2024 발표) |
+| **3** | 🏫 SSAFY | 2025 | [NestQuest](https://github.com/19GHYun/NestQuest) · Yolo Bring it · [신한 해커톤 공동구매](https://github.com/2025SinhanHackaton/GongGuYoung) · [Plate-Pay](https://github.com/19GHYun/juchajang) |
+| **4** | 🛡️ 회사 | 2025 – | 전술 상황인식 앱 플러그인 · RF 신호 분석 도구 3종 |
+| **Extra** | 🎐 개인 | 2021 – | 개인 프로젝트는 <a href="https://19ygh.netlify.app">포트폴리오</a>에서 |
+
+## 🧰 Items — 다뤄 본 기술
+
+| 분류 | 아이템 |
+| :-- | :-- |
+| 💬 **언어** | <img src="https://skillicons.dev/icons?i=py,java,cs,ts,js,cpp&theme=dark" alt="Python, Java, C#, TypeScript, JavaScript, C++" /><br />![JASS](https://img.shields.io/badge/JASS-2a0a18?style=flat-square) |
+| 📡 **신호 · 임베디드** | <img src="https://skillicons.dev/icons?i=arduino,raspberrypi&theme=dark" alt="Arduino, Raspberry Pi" /><br />![ESP32](https://img.shields.io/badge/ESP32-e7352c?style=flat-square&logo=espressif&logoColor=white) ![RTL-SDR](https://img.shields.io/badge/RTL--SDR-2a0a18?style=flat-square) ![BLE](https://img.shields.io/badge/BLE-0082fc?style=flat-square&logo=bluetooth&logoColor=white) ![NFC / RFID](https://img.shields.io/badge/NFC%20%2F%20RFID-5a1e55?style=flat-square) ![USB Serial](https://img.shields.io/badge/USB%20Serial-555?style=flat-square) ![FlatBuffers](https://img.shields.io/badge/FlatBuffers-e8364f?style=flat-square) |
+| 🖥️ **화면 · 클라이언트** | <img src="https://skillicons.dev/icons?i=react,vue,unity,threejs,qt,tailwind&theme=dark" alt="React, React Native, Vue.js, Unity, Three.js, PySide6, Tailwind CSS" /> |
+| ⚙️ **백엔드 · 인프라** | <img src="https://skillicons.dev/icons?i=spring,fastapi,nodejs,docker,nginx,jenkins,aws&theme=dark" alt="Spring Boot, FastAPI, Node.js, Docker, Nginx, Jenkins, AWS" /> |
+| 🧠 **AI · 데이터** | <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,mysql,postgres,redis,elasticsearch&theme=dark" alt="TensorFlow, PyTorch, MySQL, PostgreSQL, Redis, Elasticsearch" /> |
+
+## 🏆 Rank — 백준 · solved.ac
+
+<p align="center">
+  <a href="https://solved.ac/zxcvting1"><img src="assets/solved.svg" width="720" alt="solved.ac 플래티넘 IV, 레이팅 1,768, 해결한 문제 482개, CLASS 5, 전체 랭킹 5,949위" /></a>
+</p>
+
+## 📊 Status
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=19GHYun&show_icons=true&hide_rank=true&custom_title=GitHub%20%ED%86%B5%EA%B3%84&hide_border=true&locale=kr&bg_color=2a0a18&title_color=ff9cc0&icon_color=f6c453&text_color=ffe9f0&ring_color=e8364f" alt="GitHub 통계" />
+</p>
 
 <div align="center">
 
-### 💻 Languages
-![Java](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white&style=for-the-badge)
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge)
+<img src="assets/taskbar.svg" width="100%" alt="작업표시줄 위를 캐릭터 셋이 걸어 다니고 신사 옆에서 한 명이 자는 그림" />
 
-### 🎨 Frontend
-![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?logo=vue.js&logoColor=white&style=for-the-badge)
-![JSP](https://img.shields.io/badge/-JSP-007396?logo=java&logoColor=white&style=for-the-badge)
+<sub>캐릭터와 신사 그림: <a href="https://github.com/19GHYun/hokora-shrine">Hokora</a> 스프라이트</sub>
 
-### ⚙️ Backend
-![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?logo=spring-boot&logoColor=white&style=for-the-badge)
-![MyBatis](https://img.shields.io/badge/-MyBatis-DC382D?logo=mybatis&logoColor=white&style=for-the-badge)
+<br />
 
-### 🗄️ Database
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge)
-![Oracle](https://img.shields.io/badge/-Oracle-F80000?logo=oracle&logoColor=white&style=for-the-badge)
-
-### 🤖 Vision AI & ML
-![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?logo=opencv&logoColor=white&style=for-the-badge)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=for-the-badge)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=for-the-badge)
-![scikit--learn](https://img.shields.io/badge/-scikit--learn-F7931E?logo=scikit-learn&logoColor=white&style=for-the-badge)
-![NumPy](https://img.shields.io/badge/-NumPy-013243?logo=numpy&logoColor=white&style=for-the-badge)
-
-### 🧠 Algorithm
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=zxcvting1)](https://solved.ac/zxcvting1)
-
-</div>
-
----
-
-## 🔬 Vision AI & Computer Vision
-
-최근 **컴퓨터 비전**과 **딥러닝** 분야에 깊이 있게 학습하며, 다양한 비전 AI 프로젝트를 경험했습니다!
-
-<div align="center">
-
-| 영역 | 기술 & 경험 |
-|:---:|:---|
-| 🖼️ **이미지 처리** | OpenCV를 활용한 이미지 전처리, 필터링, 변환 |
-| 👁️ **객체 탐지** | YOLO, R-CNN 기반 실시간 객체 인식 시스템 |
-| 🧠 **딥러닝** | CNN, Transfer Learning을 활용한 이미지 분류 |
-| 📸 **컴퓨터 비전** | 얼굴 인식, 포즈 추정, 영상 분석 |
-| 🎯 **특징 추출** | SIFT, HOG, Feature Matching 알고리즘 |
-
-</div>
-
----
-
-## 🌟 관심사
-- 🎨 **프론트엔드**: 직관적이고 깔끔한 UI/UX 설계
-- ⚙️ **백엔드**: 효율적인 API와 서버 성능 최적화
-- 🤖 **Vision AI**: 컴퓨터 비전과 딥러닝을 활용한 지능형 시스템 구축
-- 🧠 **알고리즘**: 백준으로 논리적 사고력 향상
-- 🚀 **최신 기술**: AI/ML 트렌드 학습 및 실무 적용
-
----
-
-## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=19GHYun&show_icons=true&theme=dracula&hide_border=true" alt="GHYun's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=19GHYun&layout=compact&theme=dracula&hide_border=true" alt="Top Languages" />
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=19GHYun&theme=dracula&hide_border=true" alt="GitHub Streak" />
-</p>
-
----
-
-## 🏆 대표 프로젝트
-
-### 🤖 Vision AI Projects
-<table>
-<tr>
-<td width="50%">
-
-#### 🎯 실시간 객체 탐지 시스템
-- **기술**: Python, OpenCV, YOLO
-- **설명**: 웹캠을 통한 실시간 객체 인식 및 추적
-- **핵심**: 다중 객체 동시 탐지 및 분류
-
-</td>
-<td width="50%">
-
-#### 🖼️ 이미지 분류 모델
-- **기술**: TensorFlow/PyTorch, CNN
-- **설명**: Transfer Learning을 활용한 고정밀 분류
-- **핵심**: 데이터 증강 및 모델 최적화
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-#### 👤 얼굴 인식 시스템
-- **기술**: OpenCV, dlib, Face Recognition
-- **설명**: 실시간 얼굴 감지 및 특징점 추출
-- **핵심**: 다양한 조명/각도에서 정확한 인식
-
-</td>
-<td width="50%">
-
-#### 📊 영상 분석 도구
-- **기술**: Python, OpenCV, NumPy
-- **설명**: 비디오 프레임 분석 및 특징 추출
-- **핵심**: 실시간 처리 및 데이터 시각화
-
-</td>
-</tr>
-</table>
-
-### 💻 Web & Mobile Projects
-- 🏠 **[NestQuest]** - 부동산 관련 중개 및 사용자 관점의 웹 애플리케이션 [[Repository](https://github.com/19GHYun/NestQuest)]
-  - Spring Boot, Vue.js, MySQL을 활용한 풀스택 프로젝트
-
-- 📱 **[NFC 생체 인식 앱]** - 안드로이드와 NFC를 이용한 생체 반응 인식 [[Repository](https://github.com/19GHYun/snl_rf)]
-  - 안드로이드 스튜디오, NFC 기술 활용
-
-- 🎮 **[VR 의학 실습 멀티플레이]** - Unity VR 의학 실습 프로그램 (비공개)
-  - Unity, VR, Photon 서버를 이용한 멀티플레이 설계
-
----
-
-## 📬 연락처
-
-<p align="center">
-  <a href="mailto:zxcvting1@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white&style=for-the-badge" alt="Email"></a>
-  <a href="https://github.com/19GHYun"><img src="https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub"></a>
-  <a href="https://solved.ac/zxcvting1"><img src="https://img.shields.io/badge/-Solved.ac-17CE3A?logo=codeforces&logoColor=white&style=for-the-badge" alt="Solved.ac"></a>
-</p>
-
----
-
-<div align="center">
-
-### 💡 "코딩으로 세상을 더 스마트하게, AI로 미래를 더 밝게!"
-
-**Full Stack Development** 🤝 **Vision AI** 로 혁신적인 솔루션을 만들어갑니다
-
-함께 성장하고 싶으시다면 언제든지 연락주세요! 🚀
-
-<br>
-
-![Profile Views](https://komarev.com/ghpvc/?username=19GHYun&color=blueviolet&style=for-the-badge)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
+<img src="https://komarev.com/ghpvc/?username=19GHYun&label=%EC%B0%B8%EB%B0%B0%EA%B0%9D&color=e8364f&style=flat-square" alt="참배객 수" />
 
 </div>
