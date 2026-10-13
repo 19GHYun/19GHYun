@@ -66,6 +66,6 @@
 <br />
 
 <img src="assets/visitors.svg" width="520" alt="참배객 현판" /><br />
-<img src="https://count.getloli.com/@19GHYun-profile?name=19GHYun-profile&theme=nixietube-1&padding=1&offset=0&align=center&scale=1&pixelated=0&darkmode=0" height="56" alt="참배객 수" />
+<img src="https://hits.sh/github.com/19GHYun.svg?style=for-the-badge&label=%EC%B0%B8%EB%B0%B0%EA%B0%9D&color=e8364f&labelColor=2a0a18" alt="참배객 수" />
 
 </div>
