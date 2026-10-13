@@ -64,6 +64,6 @@
 
 <br />
 
-<img src="https://komarev.com/ghpvc/?username=19GHYun&label=%EC%B0%B8%EB%B0%B0%EA%B0%9D&color=e8364f&style=flat-square" alt="참배객 수" />
+<img src="https://visitor-badge.laobi.icu/badge?page_id=19GHYun.19GHYun&left_text=visitors&left_color=%232a0a18&right_color=%23e8364f" alt="방문자 수" />
 
 </div>
