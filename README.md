@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="슈팅 게임 화면처럼 꾸민 배너. 점수판에는 프로젝트 17개, 진행 중 6개, solved.ac 플래티넘 IV, 대표 프로젝트 3개, 다뤄 본 기술 45개, 활동 기간 2021–2026" />
+<img src="assets/banner.svg" width="100%" alt="슈팅 게임 화면처럼 꾸민 배너. 점수판에는 프로젝트 17개, 진행 중 6개, solved.ac 플래티넘 IV, 대표 프로젝트 3개, 다뤄 본 기술 39개, 활동 기간 2021–2026" />
 
 <a href="https://19ygh.netlify.app"><img src="https://img.shields.io/badge/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-19ygh.netlify.app-e8364f?style=for-the-badge&logo=netlify&logoColor=white" alt="포트폴리오 19ygh.netlify.app" /></a>
 <a href="https://music.youtube.com/search?q=%E4%B8%8A%E6%B5%B7%E3%82%A2%E3%83%AA%E3%82%B9%E5%B9%BB%E6%A8%82%E5%9B%A3%20%E5%B0%91%E5%A5%B3%E7%B6%BA%E6%83%B3%E6%9B%B2%20%EF%BD%9E%20Dream%20Battle"><img src="assets/bgm.svg" alt="BGM 틀기: 少女綺想曲 ～ Dream Battle" /></a>
