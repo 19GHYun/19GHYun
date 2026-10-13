@@ -811,6 +811,66 @@ def solved_card(sp):
     return svg_doc(W, H, title, defs, style, ''.join(b))
 
 
+# ── 참배객 현판 ─────────────────────────────────────────────
+
+
+def visitors_plaque(sp):
+    """방문자 수 카운터 위에 거는 현판. 숫자는 README 에서 Moe-Counter 가 붙인다"""
+    W, H = 520, 132
+    G = 124                         # 바닥 (레이무와 새전함이 서는 곳)
+    t = Type()
+    frames = set()
+    b = []
+
+    # 시메나와와 시데
+    b.append('<path d="M120 22Q260 52 400 22" fill="none" stroke="#8a6a3c" stroke-width="9" stroke-linecap="round"/>'
+             '<path d="M120 22Q260 52 400 22" fill="none" stroke="#e9d3a3" stroke-width="9" stroke-linecap="round" '
+             'stroke-dasharray="4 5" stroke-opacity="0.9"/>')
+    for x in (140, 380):
+        y = 22 + 30 * (1 - ((x - 260) / 140) ** 2)
+        b.append(f'<g transform="translate({x} {fmt(y + 2)})"><g class="sway">'
+                 '<path d="M-5 0H5L1 8H7L1 17H7L0 28-2 19H-7L-1 11H-7Z" fill="#fff" stroke="#d9d0c0" '
+                 'stroke-width="0.6"/></g></g>')
+
+    # 나무 현판
+    b.append('<rect x="160" y="44" width="200" height="70" rx="7" fill="url(#wood)" stroke="#f6c453" '
+             'stroke-width="2"/>')
+    b.append('<rect x="167" y="51" width="186" height="56" rx="4" fill="none" stroke="#f6c453" '
+             'stroke-opacity="0.45"/>')
+    b.append(t.text('참배객', 260, 88, 30, face='serif', weight=900, fill='#ffe9b8', anchor='middle',
+                    stroke='#2a0e05', sw=3, ls=4))
+    b.append(t.text('參拜客 · VISITORS', 260, 102, 8.5, weight=700, fill='#f6c453', anchor='middle', ls=1.5))
+
+    # 손 흔드는 레이무와 말풍선
+    b.append(f'<g transform="translate(74 {G})">'
+             + sp.cycle('reimu', ['wave_0', 'wave_1'], 92, 0.9, frames)
+             + '</g>')
+    msg = '어서 오세요~'
+    bw = t.width(msg, 10, weight=700) + 18
+    b.append(f'<g transform="translate(74 16)"><rect x="{fmt(-bw / 2)}" y="-11" width="{fmt(bw)}" height="20" '
+             f'rx="10" fill="#fff" stroke="{RED}"/><path d="M-4 8.5L0 14 4 8.5Z" fill="#fff"/>'
+             + t.text(msg, 0, 3, 10, weight=700, fill=RED, anchor='middle') + '</g>')
+
+    # 새전함과 떨어지는 동전
+    b.append(f'<g transform="translate(446 {G})">{sp.image("props", "saisen_box", 70)}</g>')
+    for i in range(2):
+        b.append(f'<g transform="translate({438 + i * 16} 0)"><g class="coin" style="animation-delay:{-i * 1.3}s">'
+                 f'<circle r="6" fill="{GOLD}" stroke="#b8862b"/><rect x="-1.8" y="-1.8" width="3.6" height="3.6" '
+                 'fill="#b8862b"/></g></g>')
+
+    defs = ('<linearGradient id="wood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7a4424"/>'
+            '<stop offset="1" stop-color="#4a2412"/></linearGradient>' + t.defs_svg())
+    style = (
+        '.sway{animation:sway 2.4s ease-in-out infinite alternate;transform-origin:0 0}'
+        '@keyframes sway{from{transform:rotate(-6deg)}to{transform:rotate(6deg)}}'
+        '.coin{animation:coin 2.6s ease-in infinite}'
+        '@keyframes coin{0%{transform:translate(0,40px);opacity:0}10%{opacity:1}'
+        '45%{transform:translate(0,92px);opacity:1}50%,100%{transform:translate(0,92px);opacity:0}}'
+        + frame_keyframes(frames)
+    )
+    return svg_doc(W, H, '참배객 현판. 레이무가 손을 흔들고 새전함에 동전이 떨어진다', defs, style, ''.join(b))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--hokora', default=str(ROOT.parent / 'hokora-shrine'),
@@ -818,7 +878,8 @@ def main():
     args = ap.parse_args()
     sp = Sprites(args.hokora)
     OUT.mkdir(exist_ok=True)
-    outputs = {'banner.svg': banner(sp), 'taskbar.svg': taskbar(sp), 'solved.svg': solved_card(sp)}
+    outputs = {'banner.svg': banner(sp), 'taskbar.svg': taskbar(sp), 'solved.svg': solved_card(sp),
+               'visitors.svg': visitors_plaque(sp)}
     for c in CARDS:
         outputs[c['file']] = card(sp, c)
     for name, svg in outputs.items():
