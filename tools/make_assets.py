@@ -370,12 +370,6 @@ def banner(sp):
                 '<rect x="-0.8" y="-5" width="1.6" height="10" fill="#e8364f"/></g></g>'
             )
 
-    # 가운데 스테이지 제목
-    pf.append(t.text('STAGE 4', PX, 252, 13, weight=700, fill=GOLD, anchor='middle', ls=5,
-                     stroke=WINE, sw=3))
-    pf.append(t.text('측정하고 · 붙이고 · 현장에서 쓰이게', PX, 282, 18, face='serif', weight=800,
-                     fill='#fff', anchor='middle', stroke=WINE, sw=5))
-
     # 레이무: 조준 원, 음양옥 두 개, 본인
     pf.append(f'<g transform="translate({PX} {PY - 30})"><g class="spin" style="animation-duration:6s">'
               '<circle r="27" fill="none" stroke="#fff" stroke-opacity="0.4" stroke-dasharray="3 5"/>'
