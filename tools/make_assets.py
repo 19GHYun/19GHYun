@@ -38,7 +38,7 @@ STATS = {
     'projects': 17,
     'active': 6,
     'featured': 3,
-    'skills': 45,
+    'skills': 39,
     'span': '2021–2026',
 }
 
