@@ -35,8 +35,8 @@ FONT_FILES = {'sans': 'NotoSansKR-VF.ttf', 'serif': 'NotoSerifKR-VF.ttf'}
 
 # 포트폴리오 projects.ts / skills.ts 기준 (2026.10)
 STATS = {
-    'projects': 17,
-    'active': 6,
+    'projects': 18,
+    'active': 5,
     'featured': 3,
     'skills': 39,
     'span': '2021–2026',
