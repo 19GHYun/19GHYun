@@ -13,7 +13,7 @@
 
 - 📡 RF 신호 분석 도구와 전술 상황인식 앱 플러그인을 만들고 있어요.
 - 🔍 문서가 없는 장비와 파일 포맷은 실험으로 하나씩 밝혀서 붙이고, 고친 건 숫자로 확인한 뒤에 반영해요.
-- 🗂️ 지금까지 한 프로젝트 17개는 <b><a href="https://19ygh.netlify.app">포트폴리오</a></b>에 정리해 뒀어요.
+- 🗂️ 지금까지 한 프로젝트는 <b><a href="https://19ygh.netlify.app">포트폴리오</a></b>에 모두 정리해 뒀어요.
 
 ## 🎴 Spell Card — 대표 프로젝트
 
@@ -49,12 +49,6 @@
 
 <p align="center">
   <a href="https://solved.ac/zxcvting1"><img src="assets/solved.svg" width="720" alt="solved.ac 플래티넘 IV, 레이팅 1,768, 해결한 문제 482개, CLASS 5, 전체 랭킹 5,949위" /></a>
-</p>
-
-## 📊 Status
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=19GHYun&show_icons=true&hide_rank=true&custom_title=GitHub%20%ED%86%B5%EA%B3%84&hide_border=true&locale=kr&bg_color=2a0a18&title_color=ff9cc0&icon_color=f6c453&text_color=ffe9f0&ring_color=e8364f" alt="GitHub 통계" />
 </p>
 
 <div align="center">
